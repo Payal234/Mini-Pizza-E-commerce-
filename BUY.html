@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="pizz.css">
+<style>
+
+body{
+    background-color: rgb(33, 155, 155)
+    ;
+}
+
+nav {
+        background-color:rgb(33, 155, 155);
+
+    }
+
+    a {
+        color: black;
+        padding-bottom: 10px;
+    }
+
+.form1{
+    padding: 50px;
+    width: 600px;
+    margin-left: 400px;
+}
+
+.form1:hover{
+    border-radius: 10px;
+    border: black;
+    box-shadow: inset;
+}
+
+.btn-primary{
+    padding: 10px;
+    margin: 20px;
+    color: rgba(246, 248, 247, 0.977);
+    font: bold;
+    border-radius: 20px;
+    background-color: rgb(52, 44, 168);
+    border-color:rgb(132, 12, 26) ;
+
+}
+
+</style>
+<body>
+    <nav>
+        <a href="pizza.html">Home</a>
+        <a href="">About</a>
+        <a href="veg.html">Services</a>
+        <a href="Contact.html">Contact Us</a>
+
+    </nav>
+    <form class="form1">
+
+        <div class="form-group">
+            <label for="Select5">Enter Your name</label>
+            <input type="name" class="form-control" id="ControlInput4" placeholder="your name">
+            
+        </div>
+        <div class="form-group">
+            <label for="example1">Email address</label>
+            <input type="email" class="form-control" id="Input1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="Select1" >Example select</label>
+            <select class="form-control" id="ControlSelect1" >
+                search
+                <option>VEG</option>
+                <option>NON-VEG</option>
+                <option>BOTH</option>
+                </select>
+        </div>  
+
+
+        <div class="form-group">
+            <label for="Select3" >Select Size</label>
+            <select class="form-control" id="ControlSelect3" >
+                
+                <option>Regular</option>
+                <option>Medium</option>
+                <option>Larger</option>
+                </select>
+        </div>  
+
+        <div class="form-group">
+            <label for="Select2">Enter Pizzaa name</label>
+            <input type="names" class="form-control" id="ControlInput1" placeholder="Pizza's name">
+            
+        </div>
+ 
+        <div class="form-group">
+            <label for="Select4">Contact Number</label>
+            <input type="Phone" class="form-control" id="ControlInput2" placeholder="Contact">
+            
+        </div>
+        
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Address</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+            <a href="" class="btn btn-primary">PAY NOW</a>
+        </div>
+    </form>
+</body>
+
+</html>
